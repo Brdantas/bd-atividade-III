@@ -11,19 +11,19 @@ CREATE TABLE pedidos (
 
 
 INSERT INTO pedidos (cliente_nome, status, data_entrega)
-VALUES ('Cliente A', 'Pendente', NULL),
-       ('Cliente B', 'Entregue', '2023-10-25'),
-       ('Cliente C', 'Pendente', NULL),
+VALUES ('Cliente A', 'Aceito', NULL),
+       ('Cliente B', 'Enviado', '2023-10-25'),
+       ('Cliente C', 'Espera', NULL),
        ('Cliente D', 'Cancelado', NULL),
-       ('Cliente E', 'Pendente', NULL);
+       ('Cliente E', 'Espera', NULL);
        
 
 
 CREATE VIEW vw_pedidos_pendentes AS
 SELECT * FROM pedidos
-WHERE status = 'Pendente' AND data_entrega IS NULL;
+WHERE status = 'Espera' AND data_entrega IS NULL;
 
 
-SELECT * FROM vw_pedidos_pendentes;
+SELECT * FROM vw_pedidos_espera;
 
 
