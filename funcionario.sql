@@ -14,9 +14,9 @@ CREATE TABLE tb_funcionarios_demitidos (
     data_demissao TIMESTAMP
 );
 INSERT INTO tb_funcionarios (id, nome, cargo)
-VALUES (1, 'Nome do Funcionário', 'Cargo do Funcionário');
+VALUES (1, 'Nome Funcionário', 'Cargo Funcionário');
 INSERT INTO tb_funcionarios (id, nome, cargo)
-VALUES (2, 'Nome do Funcionário', 'Cargo do Funcionário');
+VALUES (2, 'Nome Funcionário', 'Cargo Funcionário');
 
 DELIMITER //
 CREATE TRIGGER after_delete_funcionario
