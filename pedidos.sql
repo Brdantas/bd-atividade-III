@@ -12,7 +12,7 @@ CREATE TABLE pedidos (
 
 INSERT INTO pedidos (cliente_nome, status, data_entrega)
 VALUES ('Cliente A', 'Aceito', NULL),
-       ('Cliente B', 'Enviado', '2023-10-25'),
+       ('Cliente B', 'Enviado', '2023-12-09'),
        ('Cliente C', 'Espera', NULL),
        ('Cliente D', 'Cancelado', NULL),
        ('Cliente E', 'Espera', NULL);
