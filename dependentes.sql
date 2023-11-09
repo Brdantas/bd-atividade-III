@@ -17,11 +17,11 @@ CREATE TABLE tb_dependentes (
 
 
 INSERT INTO tb_funcionarios (id, nome, cargo)
-VALUES (1, 'Nome do Funcionário', 'Cargo do Funcionário');
+VALUES (1, 'Nome Funcionário', 'Cargo Funcionário');
 
 
 INSERT INTO tb_dependentes (id, id_funcionario, nome, parentesco)
-VALUES (1, 1, 'Nome do Dependente', 'Parentesco do Dependente');
+VALUES (1, 1, 'Nome Dependente', 'Parentesco Dependente');
 
 
 DELIMITER //
